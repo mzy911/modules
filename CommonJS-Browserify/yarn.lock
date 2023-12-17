@@ -966,6 +966,11 @@ safer-buffer@^2.1.0:
   resolved "https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
+sea@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/sea/-/sea-1.0.2.tgz#2950d2e089371183d40a1b5b00b6d4dc643ca6a2"
+  integrity sha512-xU5iThhlGozCYz2t4fgPmUz8rTTBLlXYZDTKbY7wWj2wLIInXzqTint46cMHkCHTco1Vr90nCcjMp6C2bZtO0Q==
+
 set-function-length@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmmirror.com/set-function-length/-/set-function-length-1.1.1.tgz#4bc39fafb0307224a33e106a7d35ca1218d659ed"

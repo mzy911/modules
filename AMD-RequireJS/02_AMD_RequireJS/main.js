@@ -1,5 +1,5 @@
 (function () {
-  requirejs.config({
+  require.config({
     baseUrl: "js/", // 可以指定base路径
     paths: {
       alerter: "modules/alerter", // js/modules/alerter
@@ -15,7 +15,7 @@
   });
 
   // 引入 alerter 模块
-  requirejs(["alerter"], function (alerter) {
+  require(["alerter"], function (alerter) {
     alerter.showMsg();
   });
 })();
