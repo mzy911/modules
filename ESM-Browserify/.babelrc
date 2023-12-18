@@ -1,0 +1,6 @@
+{
+  // 作用：
+  // 1、告诉 Babel 去转化 es6 语法
+  // 2、告诉 Babel 去转化 React 中的 JSX 语法
+  "presets": ["es2015"] // ["es2015", "react"]
+}

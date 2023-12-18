@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- 1、直接引入 main.js 报错：Unexpected token import -->
+    <!-- <script type="text/javascript" src="js/src/main.js"></script> -->
+    <!-- 2、先使用 babel 将 ES6+ 转为 ES5、依然使用 require 语法，再使用 Browserify 编译 js -->
+    <!-- babel js/src -d js/lib -->
+    <!-- browserify js/lib/main.js -o js/lib/bundle.js -->
+    <script type="text/javascript" src="build/bundle.js"></script>
+  </head>
+  <body></body>
+</html>
